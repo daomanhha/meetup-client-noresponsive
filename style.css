@@ -141,8 +141,12 @@ body {
 
 .hscroll > ul > li > a {
     padding: .4rem 1rem;
-    border: 1px solid #c5c4c4;
+    border: 1px solid #f6f7f8;
     border-radius: 4px;
     background-color: #f6f7f8;
     color: #757575;
+    transition: all 0.5s ease-in-out;
+}
+.hscroll > ul > li > a:hover {
+    border: 1px solid #c5c4c4;
 }
