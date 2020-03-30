@@ -150,3 +150,17 @@ body {
 .hscroll > ul > li > a:hover {
     border: 1px solid #c5c4c4;
 }
+
+/* body */
+.groups-near-you {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.home-cards .category-card  img {
+    width: 100%;
+    max-height: 160px;
+    border-radius: 7px;
+}
