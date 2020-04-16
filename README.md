@@ -3,9 +3,9 @@
     meetup.com  
     no responsive  
 ## Built with  
-    * HTML  
-    * CSS  
-    * JS  
+* HTML  
+* CSS  
+* JS  
 ## Authors  
-    * [Dao Manh Ha](https://www.facebook.com/thieu.gia.77736/)
+* [Dao Manh Ha](https://www.facebook.com/thieu.gia.77736/)
     
