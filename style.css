@@ -223,16 +223,84 @@ body {
     box-sizing: border-box;
 }
 
-#get-the-app  .get-the-app__default img {
+.get-the-app__default img {
     max-width: 160px;
 }
 
-#get-the-app .get-the-app__download {
+.get-the-app__download {
     display: flex;
     margin-top: 40px;
 }
 
-#get-the-app .get-the-app__img img {
+.get-the-app__img img {
     max-height: 300px;
     max-width: 100%;
+}
+
+#footer--wrapper__up {
+    background-color: #353e48;
+}
+
+.container__body__newGroup {
+    padding: 40px 0 40px 0;
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+}
+
+.container__body__newGroup a {
+    color: #f6f7f8;
+    font-size: 20px;
+}
+
+
+.container__body__contents {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.chunk--warpper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.chunk {
+    flex-grow: 1;
+}
+
+.container__body__contents .chunk ul {
+    list-style-type: none;
+}
+
+.container__body__contents .chunk ul li {
+    padding: 7px 0 7px 0;
+}
+
+.container__body__contents .chunk ul a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.chunk-cotent__text li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.language--picker select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 10px 15px 10px;
+    background-color: rgb(15, 23, 33);
+    color: #f6f7f8;
+    border-color: rgb(217, 217, 217);
+}
+
+.footer--wrapper__intro {
+    background-color: #2f363f;
+}
+
+.footer--wrapper__intro p {
+    color: #f6f7f8;
 }
